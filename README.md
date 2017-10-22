@@ -1,5 +1,7 @@
 # keepa
 
+Fetch product data by ASIN:
+
 ``` python
 import keepa
 
