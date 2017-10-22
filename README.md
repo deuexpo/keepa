@@ -1,5 +1,6 @@
 # keepa
 
+``` python
 import keepa
 
 ASIN = 'B0009F3PQ2'
@@ -13,3 +14,4 @@ product = api.products([ASIN])['products'][0]
 print(product['asin'])
 print(product['title'])
 print('Tokens Left:', api.tokens_left())
+```
